@@ -1,0 +1,564 @@
+{
+  "config": {
+    "configFile": "D:\\ITPM Assignment 1\\playwright.config.ts",
+    "rootDir": "D:/ITPM Assignment 1/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "D:/ITPM Assignment 1/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 1
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "D:/ITPM Assignment 1/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "runAgents": "none",
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.58.0",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "negative.spec.ts",
+      "file": "negative.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "NegFun0001 - \"naa pogave maaten\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23998,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0001 PASS - No Tamil: \"naa pogave maaten\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:12:30.378Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0001---naa-pogave-maaten--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-61f8d6f448a960a09882",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0002 - \"nimmi inga varaadha\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 21909,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0002 PASS - No Tamil: \"nimmi inga varaadha\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:12:56.377Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0002---nimmi-inga-varaadha--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-e53b7448731ab834abc5",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0003 - \"nee poga maattiya?\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22709,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0003 PASS - No Tamil: \"nee poga maattiya?\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:13:18.304Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0003---nee-poga-maattiya--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-e9c4e6c10e2ce2647ead",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0004 - \"adhu illa\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22732,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0004 PASS - No Tamil: \"adhu illa\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:13:41.024Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0004---adhu-illa--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-448c994ba2e72f280e7d",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0005 - \"awa padikka maattaa\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22683,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0005 PASS - No Tamil: \"awa padikka maattaa\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:14:03.769Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0005---awa-padikka-maattaa--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-3713316a204159b8a163",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0006 - \"awana enakku pidikkaathu\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 23519,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0006 PASS - No Tamil: \"awana enakku pidikkaathu\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:14:26.470Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0006---awana-enakku-pidikkaathu--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-6965ead115633e264fc3",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0007 - \"awal kallachchi\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25253,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0007 PASS - No Tamil: \"awal kallachchi\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:14:50.004Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0007---awal-kallachchi--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-94b373c535c01aec0278",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0008 - \"2 thengaai\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 19639,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0008 PASS - No Tamil: \"2 thengaai\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:15:15.271Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0008---2-thengaai--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-65e9f4d9eabdbc3eb98b",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0009 - \"enakku apple vendaam\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 25817,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0009 PASS - No Tamil: \"enakku apple vendaam\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:15:34.922Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0009---enakku-apple-vendaam--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-ba2b0644524ae1f2b1a9",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0010 - \"computer use panna virumbala\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 26328,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0010 PASS - No Tamil: \"computer use panna virumbala\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:16:00.757Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0010---computer-use-panna-virumbala--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-66906f5829b97ec2ef67",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        },
+        {
+          "title": "NegFun0011 - \"amma adikka maattanga\"",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 60000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "parallelIndex": 0,
+                  "status": "passed",
+                  "duration": 22042,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "🟢 NegFun0011 PASS - No Tamil: \"amma adikka maattanga\" ✓\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2026-01-31T09:16:27.105Z",
+                  "annotations": [],
+                  "attachments": [
+                    {
+                      "name": "video",
+                      "contentType": "video/webm",
+                      "path": "D:\\ITPM Assignment 1\\test-results\\negative-NegFun0011---amma-adikka-maattanga--chromium\\video.webm"
+                    }
+                  ]
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "30cfb1659f62e12e73c6-55e0fde74546568a6df4",
+          "file": "negative.spec.ts",
+          "line": 18,
+          "column": 7
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-01-31T09:12:28.724Z",
+    "duration": 261631.725,
+    "expected": 11,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
